@@ -105,8 +105,13 @@ The program uses a GDBM database file (reservations.db) for storage.
 The database file is automatically created on first run.
 No manual file setup is required.
 
-## Swmonstration
-The program demonstrates:
+## Demo Video
+
+A recorded demonstration of the Airplane Reservation System, including CRUD operations and GDBM persistence, can be viewed below:
+
+[Watch Demo Video](https://mediaspace.umn.edu/media/t/1_je50r6pz)
+
+The video demonstrates the following:
 - Loading data from the database
 - Creating reservations
 - Viewing, updating, and deleting reservations
