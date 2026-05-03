@@ -72,10 +72,16 @@ The solution is implemented as a modular C application with multiple source file
 This program requires:
 - GCC (GNU Compiler Collection)
 - GNU dbm (gdbm) library
+- make (build tool)
 
 On Ubuntu/Debian:
 ```bash
-sudo apt install build-essential libgdbm-dev
+sudo apt update
+sudo apt install build-essential libgdbm-dev make
+
+On Fedora/RHEL:
+```bash
+sudo dnf install gcc gdbm-devel make
 
 ### Compile
 ```bash
