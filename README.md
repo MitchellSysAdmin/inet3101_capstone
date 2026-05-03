@@ -78,22 +78,27 @@ On Ubuntu/Debian:
 ```bash
 sudo apt update
 sudo apt install build-essential libgdbm-dev make
+```
 
 On Fedora/RHEL:
 ```bash
 sudo dnf install gcc gdbm-devel make
+```
 
 ### Compile
 ```bash
 make
+```
 
 ### Run
 ```bash
 ./reservation
+```
 
 ### Clean Build Files
 ```bash
 make clean
+```
 
 ## Notes
 The program uses a GDBM database file (reservations.db) for storage.
@@ -109,4 +114,5 @@ The program demonstrates:
 - Maintaining data persistence across executions
 
 ## Conclusion
-This project successfully implements a functional airplane reservation system in C using GDBM for persistent storage. It demonstrates key programming concepts such as modular design, file/database handling, and structured data management, providing a strong foundation for more advanced systems.
+This project successfully implements a functional airplane reservation system in C using GDBM for persistent storage. 
+It demonstrates key programming concepts such as modular design, file/database handling, and structured data management, providing a strong foundation for more advanced systems.
