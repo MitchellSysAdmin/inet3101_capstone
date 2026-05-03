@@ -62,7 +62,6 @@ The solution is implemented as a modular C application consisting of multiple so
 - Supports only a single airplane (no multiple flights)
 - No concurrency handling (single user only)
 - Limited validation for user input
-- Uses plain text file instead of a database
 - No graphical user interface (CLI only)
 
 ---
